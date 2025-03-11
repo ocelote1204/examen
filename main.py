@@ -1,1 +1,6 @@
-print("璈ola, mundo! Este es mi proyecto.") 
+# Importar la funci贸n de entrenamiento y evaluaci贸n desde el m贸dulo neural_networks_keras
+from src.binary_classification_NLP import train_imdb_model
+
+# Verifica si el script se ejecuta directamente
+if __name__ == "__main__":
+   train_imdb_model()  # Llama a la funci贸n para entrenar y evaluar la red neuronal
